@@ -1,0 +1,48 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+@font-face {
+  font-family: "bluescreen";
+  src: url(https://vivesthesia.neocities.org/Blue%20Screen%20Personal%20Use.ttf);
+}
+
+@font-face {
+  font-family: "welbutrin";
+  src: url(https://vivesthesia.neocities.org/fonts/wellbutrin/Welbut__.ttf);
+}
+
+@font-face {
+  font-family: "pixeloperator";
+  src: url(https://vivesthesia.neocities.org/fonts/pixel_operator/PixelOperator.ttf);
+}
+
+@font-face {
+  font-family: "old";
+  src: url(https://vivesthesia.neocities.org/fonts/Old%20Celtiberians.otf);
+}
+
+a {
+  color: white; /* Changes default unvisited and visited links to green */
+}
+
+body {
+    /* Scale the content to 80% of its original size */
+    transform: scale(0.8);
+    /* Set the origin of the transformation to the top-left corner */
+    transform-origin: 0 0;
+    /* Ensure the body takes up the full width so content doesn't get cut off */
+    width: 125%; /* 100% / 0.8 = 125% */
+  background-color: #000000;
+  color: white;
+  cursor: url("https://vivesthesia.neocities.org/Normal-select.png"), auto
+}
+
+table {
+  max-width: 1080px;
+  height: auto;
+  padding: 300px;
+}
+
+body {
+  overflow: hidden; /* Hide both scrollbars */
+}
